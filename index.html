@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos Premium</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #333, #555);
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f4d03f;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            border-bottom: 2px solid #f4d03f;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .document-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .document-item {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+        }
+        .document-item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .document-item h3 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentos Premium</h1>
+        <p>Los documentos que necesitas, cuando los necesitas.</p>
+    </header>
+    <nav>
+        <a href="#identidad">Documentos de Identidad</a>
+        <a href="#financieros">Documentos Financieros</a>
+        <a href="#legales">Documentos Legales</a>
+        <a href="#especializados">Documentos Especializados</a>
+    </nav>
+    <div class="container">
+        <section id="identidad">
+            <h2>Documentos de Identidad</h2>
+            <div class="document-list">
+                <div class="document-item">
+                    <img src="ine.jpg" alt="INE">
+                    <h3>INE</h3>
+                </div>
+                <div class="document-item">
+                    <img src="pasaporte.jpg" alt="Pasaporte">
+                    <h3>Pasaporte</h3>
+                </div>
+                <div class="document-item">
+                    <img src="acta-nacimiento.jpg" alt="Acta de Nacimiento">
+                    <h3>Acta de nacimiento</h3>
+                </div>
+                <div class="document-item">
+                    <img src="acta-matrimonio.jpg" alt="Acta de Matrimonio">
+                    <h3>Acta de matrimonio</h3>
+                </div>
+                <div class="document-item">
+                    <img src="acta-divorcio.jpg" alt="Acta de Divorcio">
+                    <h3>Acta de Divorcio</h3>
+                </div>
+                <div class="document-item">
+                    <img src="acta-defuncion.jpg" alt="Acta de Defunción">
+                    <h3>Acta de defunción</h3>
+                </div>
+                <div class="document-item">
+                    <img src="identificacion-laboral.jpg" alt="Identificación Laboral">
+                    <h3>Identificación laboral</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="financieros">
+            <h2>Documentos Financieros</h2>
+            <div class="document-list">
+                <div class="document-item">
+                    <img src="comprobante-ingresos.jpg" alt="Comprobante de Ingresos">
+                    <h3>Comprobante de ingresos</h3>
+                </div>
+                <div class="document-item">
+                    <img src="estados-cuenta.jpg" alt="Estados de Cuenta">
+                    <h3>Estados de cuenta</h3>
+                </div>
+                <div class="document-item">
+                    <img src="aval-financiero.jpg" alt="Aval Financiero">
+                    <h3>Aval financiero</h3>
+                </div>
+                <div class="document-item">
+                    <img src="certificado-incapacidad.jpg" alt="Certificado de Incapacidad">
+                    <h3>Certificado de Incapacidad</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="legales">
+            <h2>Documentos Legales</h2>
+            <div class="document-list">
+                <div class="document-item">
+                    <img src="testamento.jpg" alt="Testamento">
+                    <h3>Testamento</h3>
+                </div>
+                <div class="document-item">
+                    <img src="contrato-compra-venta.jpg" alt="Contrato de Compra-Venta">
+                    <h3>Contrato de compra-venta</h3>
+                </div>
+                <div class="document-item">
+                    <img src="constancia-situacion-fiscal.jpg" alt="Constancia de Situacion Fiscal">
+                    <h3>Constancia de Situacion Fiscal</h3>
+                </div>
+                <div class="document-item">
+                    <img src="licencia-armas.jpg" alt="Licencia de Portación de Armas">
+                    <h3>Licencia de portación de armas</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="especializados">
+            <h2>Documentos Especializados</h2>
+            <div class="document-list">
+                <div class="document-item">
+                    <img src="diplomado.jpg" alt="Diplomado">
+                    <h3>Diplomado</h3>
+                </div>
+                <div class="document-item">
+                    <img src="titulo-profesional.jpg" alt="Título Profesional">
+                    <h3>Título profesional</h3>
+                </div>
+                <div class="document-item">
+                    <img src="certificado-estudios.jpg" alt="Certificado de Estudios">
+                    <h3>Certificado de estudios</h3>
+                </div>
+                <div class="document-item">
+                    <img src="permiso-residencia.jpg" alt="Permiso de Residencia">
+                    <h3>Permiso de residencia temporal o permanente</h3>
+                </div>
+                <div class="document-item">
+                    <img src="carta-naturalizacion.jpg" alt="Carta de Naturalización">
+                    <h3>Carta de naturalización</h3>
+                </div>
+                <div class="document-item">
+                    <img src="antecedentes-penales.jpg" alt="Antecedentes Penales">
+                    <h3>Antecedentes penales</h3>
+                </div>
+            
+</div>
+        </section>
+    </div>
+<p style='text-align: center; margin-top: 2rem; font-size: 1.2rem; font-weight: bold; color: #f4d03f; background-color: #333; padding: 1rem; border-radius: 8px;'>Cualquier modificacion de documento esta sujeta a cotizacion. Todos los precios y servicios se consultan desde el correo: <a href='mailto:documentospremiuminfo@gmail.com' style='color: #f4d03f; text-decoration: underline;'>documentospremiuminfo@gmail.com El tiempo de respuesta es inmediato</a></p>
+    <footer>
+        <p>&copy; 2024 Documentos Premium. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
